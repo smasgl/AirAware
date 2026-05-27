@@ -16,7 +16,7 @@ function Sidebar({ activeTask, onSimulate, lockMode, onExitLock }) {
       title: 'Proactive alerts in the background',
       role: 'Vulnerable resident · May, 68',
       body: 'Even when the app is in the background, the system monitors air quality. Entering a hazardous area triggers a haptic vibration and a visual lock-screen alert, allowing users to react instantly without unlocking their phone.',
-      step: lockMode ? 'Watch May’s location move into the red zone — the widget pulses to mimic haptic feedback.' : 'Trigger the simulation to see the lock-screen alert.',
+      step: lockMode ? 'Watch May’s location move into the red zone, the widget pulses to mimic haptic feedback.' : 'Trigger the simulation to see the lock-screen alert.',
       actions: lockMode ? (
         <button onClick={onExitLock} style={btnSecondary}>← Back to map</button>
       ) : (

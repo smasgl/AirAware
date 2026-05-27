@@ -513,7 +513,7 @@ function ContributeTab({ phase, setPhase, sensor, setSensor }) {
             Thank you,<br />for your contribution!
           </div>
           <div style={{ fontSize: 14, color: '#52525b', marginTop: 12, maxWidth: 280, lineHeight: 1.5 }}>
-            You covered 1.8 km and helped 312 vulnerable residents along your route.
+            Your contribution will help us make the world a safer place for everyone.
           </div>
           <button
           onClick={() => {setPhase('idle');setSensor(null);}}
