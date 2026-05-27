@@ -1,0 +1,11 @@
+{
+  "name": "airaware-vienna",
+  "version": "1.0.0",
+  "description": "AirAware Vienna Prototype",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
